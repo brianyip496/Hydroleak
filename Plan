@@ -6,11 +6,12 @@ than the pressure at the beginning, the pipe is leaking.
 Potential Improvements
 1. Vertical pipe leak detection
   > Problem: Water pressure decreases with altitude. Water pressure decreases by approximately 0.433 PSI/foot assuming 
-  g = 9.8 m/s^2 (on earth: g is between 9.78 m/s^2 and 9.83 m/s^2)
+  g = 9.8 m/s^2 [1] (on earth: g is between 9.78 m/s^2 and 9.83 m/s^2) [2]
     - Solution 1: Allow the sensors to calculate their vertical distance from each other and thus, calculate the expected drop
                   in pressure.
   > References
-    - 1. http://www.irrigationtutorials.com/elevation-pressure-loss-in-irrigation-systems/
+    - [1] http://www.irrigationtutorials.com/elevation-pressure-loss-in-irrigation-systems/
+    - [2] http://curious.astro.cornell.edu/question.php?number=310
   
 2. Underground leak detection
   > Problem: Sensors cannot communicate well with wifi underground
