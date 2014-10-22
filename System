@@ -1,0 +1,6 @@
+Use a flow switch and flow sensor.
+
+A flow switch is a sensitive device (~0.1 L/min). It has a broken ciruit. When water flows through it, the ciruit gets completed and an
+electric current flows. When there is an electric current, there is a leak.
+
+A flow sensor (~1L/min) will report the rate at which water is leaking, so the user can determine how large the leak is.
