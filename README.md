@@ -19,6 +19,7 @@ Advertising
 https://github.com/brianyip496/Hydroleak/blob/Flow-Rate-System/Flyer%20for%20Product
 https://github.com/brianyip496/Hydroleak/blob/Flow-Rate-System/Brochure
 https://github.com/brianyip496/Hydroleak/blob/Flow-Rate-System/Website
+Created an account on plumbingforums.com, was banned for spamming and adverstising our product
 
 Materials
 
