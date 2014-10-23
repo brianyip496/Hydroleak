@@ -1,6 +1,18 @@
 Use a flow switch and flow sensor.
 
 A flow switch is a sensitive device (~0.1 L/min). It has a broken ciruit. When water flows through it, the ciruit gets completed and an
-electric current flows. When there is an electric current, there is a leak.
+electric current flows. When there is an electric current, either someone or some appliance is using water, or there is a leak.
 
 A flow sensor (~1L/min) will report the rate at which water is leaking, so the user can see how large the leak is.
+
+The current plan for determining whether someone is using water or water is leaking is that we will have the user set a time, 
+say 3AM, when they know that they are not using water for the device to check for leaks. 
+
+However, the problem with this system is that it does not allow for real time monitoring. This means that if a leak occurs, the 
+homeowner will not know until after the set time, which will usally be by morning. This is not a huge deal if the leak is small, 
+but if a pipe bursts, you want to know right away. 
+
+An alternate solution that is under consideration is to time the amount of time that there is water flow. We feel it is safe to
+say that under normal circumstances, water will not be constantly on for more than an hour at a time. Of course the amount of 
+time can be adjusted by the user. However, with a timer system, Hydroleak can constantly monitor waterflow and let the homeowner
+know within a reasonable amount of time if there is a leak. 
