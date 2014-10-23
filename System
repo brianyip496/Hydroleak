@@ -15,4 +15,14 @@ but if a pipe bursts, you want to know right away.
 An alternate solution that is under consideration is to time the amount of time that there is water flow. We feel it is safe to
 say that under normal circumstances, water will not be constantly on for more than an hour at a time. Of course the amount of 
 time can be adjusted by the user. However, with a timer system, Hydroleak can constantly monitor waterflow and let the homeowner
-know within a reasonable amount of time if there is a leak. 
+know within a reasonable amount of time if there is a leak. Perhaps a hybrid of both these methods can be used. 
+
+A significant issue with these two systems is that the device needs to be installed directly into a house's main water line. While
+the cost of device itself will probably be relatively low, the cost of a professional installation may not justify the potential 
+benefit ofour product to the average homeowner. We will look into the installation costs of device into the main water line. 
+
+If it does prove to be cost prohibitive, we will have to completely change the system. An idea that was mentioned was to use the 
+mechanical flow sensor built into most water meters, a small triangle that will rotate if there is flow. A camera or light
+detector can be set up in front of the triangle to detect even the tiniest movement. The method of determining whether water flow 
+is actual water usage will be the same as they would be for the previous flow detection methods. This method is a lot cheaper and 
+easier to install, at the cost of accuracy. 
