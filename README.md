@@ -8,7 +8,7 @@ Pressure system: Abandoned! (Used two pressure sensors at each end of pipe)
 Camera system: Idea under consideration. (Use camera to track triangular leak detector on water meter)
 
 
-Our current plan: Flow rate system (Flow sensor and flow switch. If flow is not zero, there's a leak)
+Our current plan: Flow rate system (Flow sensor and flow switch. If flow is not zero, and faucet are off,there's a leak)
 
 How it works 
 
