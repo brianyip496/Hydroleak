@@ -7,6 +7,10 @@ Pressure system: Abandoned! (Used two pressure sensors at each end of pipe)
 
 Camera system: Idea under consideration. (Use camera to track triangular leak detector on water meter)
 
+How it works
+
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/System
+
 
 Our current plan: Flow rate system (Flow sensor and flow switch. If flow is not zero, and faucets are off, there's a leak)
 
