@@ -3,6 +3,9 @@ Hydroleak
 
 EID101-D Project
 
+Shopping List:
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Shopping%20List
+
 Pressure system: Abandoned! (Used two pressure sensors at each end of pipe)
 
 Camera system: Idea under consideration. (Use camera to track triangular leak detector on water meter)
