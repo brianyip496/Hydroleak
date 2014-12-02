@@ -1,9 +1,8 @@
 Use a camera to track the triangular flow detector on current water meters. Turn off all water. If the triangle shows 
 movement, there is flow, and thus a leak. 
-Attach a flashlight to help see the triangle in the dark.
+Attach an LED to help see the triangle in the dark.
 
-To set up for the first time, ask the user to box in a specific area that contains the triangular flow detector to help the camera.
-Hydroleak will take a photo of the area when it starts, the original. Take the 2nd photo 1 minute later. Set both photos to
-50% transparency and overlap them. Compare this overlapped photo to the original. If there is no difference, there's no leak.
-Otherwise, there could be a leak. Repeat this process, setting the 2nd photo now as the original. Check if there's a consistant
-difference between photos.
+To set up for the first time, ask the user to place the camera right over the triangular flow detector.
+Hydroleak will take a photo of the area when it starts, the original. Take the 2nd photo 1 minute later. Run both photos through
+image differencing software. If there is no difference, there's no leak. Otherwise, there could be a leak. Repeat this process, 
+setting the 2nd photo now as the original. Check if there's a consistant difference between photos.
