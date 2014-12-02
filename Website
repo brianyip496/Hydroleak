@@ -1,3 +1,29 @@
-Brian Yip, Abe Tawil, Zackary Xing
+Original website: hydroleak.wix.com/detection
+Pros:
+-simple to design
+-easy and free to use
+-supports email response
 
-hydroleak.brace.io
+Cons:
+-does not provide website analytics
+-only sends responses to email not google docs
+
+
+
+Because of these things, we switched to brace.io which gave us both google anylaytics and google docs.
+
+New webiste link: hydroleak.brace.io
+
+Possible templates for brace:
+http://html5up.net/
+http://html5up.net/read-only
+
+We chose the "Directive template" from http://html5up.net
+
+Things we needed to fix on the website:
+-incorporate the PROBLEM into the wesbsite and why our product is the SOLUTION
+-add pictures of leaks and water damage
+
+
+
+
