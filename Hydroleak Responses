@@ -1,0 +1,27 @@
+https://docs.google.com/spreadsheets/d/1U2OGonfNFtk9tXd-Fyx2xbXkFzkDxuvEt-jz0hARRdE/edit?usp=sharing
+
+Google sheet records the response by the Hydroleak and sends an email to the user. It then deletes the row to free it for the
+next time Hydroleak needs it.
+
+function sendEmails() 
+{
+  var sheet = SpreadsheetApp.getActiveSheet();
+  
+  // Fetch the range of cells B2:C2
+  var dataRange = sheet.getRange(2, 2, 1, 2)
+  
+  // Fetch values for each row in the Range.
+  var data = dataRange.getValues();
+  
+  for (i in data) 
+  {
+    var row = data[i];
+    var emailAddress = row[0];  // First column
+    var leak = row[1];       // Second column
+    var subject = "Hydroleak";
+    MailApp.sendEmail(emailAddress, subject, leak);
+  }
+  
+  sheet.deleteRow(2);
+  
+}
