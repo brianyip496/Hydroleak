@@ -1,8 +1,18 @@
-Use a camera to track the triangular flow detector on current water meters. Turn off all water. If the triangle shows 
-movement, there is flow, and thus a leak. 
-Attach an LED to help see the triangle in the dark.
+The final system that we decided on is the camera system. It makes installation of Hydroleak much easier and cheaper than the 
+flow rate system, although it is a much more complex system. 
+
+This system uses a camera to track the triangular flow detector on current water meters. When all water is turned off, if the
+triangle shows movement, there is flow, and thus a leak. An can be attached LED to help see the triangle in the dark.
 
 To set up for the first time, ask the user to place the camera right over the triangular flow detector.
-Hydroleak will take a photo of the area when it starts, the original. Take the 2nd photo 1 minute later. Run both photos through
-image differencing software. If there is no difference, there's no leak. Otherwise, there could be a leak. Repeat this process, 
-setting the 2nd photo now as the original. Check if there's a consistant difference between photos.
+Hydroleak will take a photo of the area when it starts. The first picture will be the original. The 2nd photo is taken 1 minute
+later. Both photos are run through image differencing software. If there is no difference, there's no leak. If there is a
+difference, there could be a leak. Because of the way that water meters work, even if there is a continuous flow, if the flow
+rate is very small, the triangle does not turn continuously. Instead, it moves in small increments, so if there is a very small
+leak, the triangle might not move for more than a minute. Hydroleak will repeat this process, setting the last photo take
+as the original. If there is a consistant difference over an interval, then there is a leak. 
+
+An alternate solution is to time the amount of time that there is water flow. We feel it is safe to say that under normal
+circumstances, water will not be constantly on for more than an hour at a time. Of course, the amount of time can be adjusted
+by the user. However, with a timer system, Hydroleak can constantly monitor waterflow and let the homeownerknow within a
+reasonable amount of time if there is a leak. Perhaps a hybrid of both these methods can be used. 
