@@ -13,3 +13,7 @@ http://forum.arduino.cc/index.php?topic=159557.0
 555 Timer Reference(Could also use crystal oscillator)
 http://electronicsclub.info/555timer.htm#astable
 
+Sparkcore hardware limitations
+http://docs.spark.io/hardware/
+(128K flash Memory, not enough to store entire image)
+(500Hz Analog pin frequency PWM)
