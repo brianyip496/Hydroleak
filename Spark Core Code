@@ -1,0 +1,138 @@
+int VSYNC = A1;
+int HREF = A0;
+int PCLK = A6;
+int XCLK = A3;
+int RESETPIN = A7;
+//int PWDN = A4;
+
+//Edge Detectino
+bool vsyncval = false;
+bool hrefval = false;
+bool pclkval = false;
+bool vsyncrise = false;
+bool vsyncfall = false;
+bool pclkrise = false;
+bool pclkfall = false;
+bool hrefrise = false;
+bool hreffall = false;
+
+// int picture[480][640];
+//char picture[176][144];
+
+void setup() {
+    Serial.begin(9600);
+    pinMode(D0, INPUT);
+    pinMode(D1, INPUT);
+    pinMode(D2, INPUT);
+    pinMode(D3, INPUT);
+    pinMode(D4, INPUT);
+    pinMode(D5, INPUT);
+    pinMode(D6, INPUT);
+    pinMode(D7, INPUT);
+    
+    pinMode(VSYNC, INPUT);
+    pinMode(HREF, INPUT);
+    
+    pinMode(PCLK, OUTPUT);
+    pinMode(XCLK, OUTPUT);
+    pinMode(RESET, OUTPUT);
+    //pinMode(PWDN, OUTPUT);
+    
+    digitalWrite(RESET, 1);
+    //digitalWrite(PWDN, 0);
+    
+    SPI.setClockDivider(SPI_CLOCK_DIV4);
+    
+    
+    // Spark.function("take", takePicture);
+    // Spark.variable("picture", string, STRING);
+    // takePicture("merg");
+}
+
+void loop() {
+    // Serial.println(parseGreyscale());
+    Serial.println(digitalRead(VSYNC));
+    Serial.println("___");
+}
+
+int takePicture(String blarg) {
+    int bytecount = 1;
+    int rowcount = 0;
+    char rowBuffer[144];
+    
+    bool finished = false;
+    bool sendingFrame = false;
+    
+    while (finished == false) {
+        updateEdges();
+        if (vsyncfall) {
+            sendingFrame = true;
+        }
+        if (vsyncrise) {
+            sendingFrame = false;
+        }
+        if (sendingFrame) {
+            if (hrefval and pclkrise) {
+                if (bytecount % 2 == 0) {
+                   rowBuffer[bytecount/2 -1] = parseGreyscale();
+                }
+                bytecount++;
+            }
+            if (hreffall) {
+                // picture[rowcount] = rowBuffer;
+                for (int num = 0; num < (int)sizeof(rowBuffer)-1; num++) {
+                    //picture[rowcount][num] = rowBuffer[num];
+                    Serial.println(rowBuffer[num]);
+                }
+            }
+        }
+        if (sendingFrame == false and rowcount != 0) {
+            finished = true;
+        }
+    }
+    return 0;
+}
+
+int parseGreyscale() {
+    int q0 = digitalRead(D0);
+    int q1 = digitalRead(D1);
+    int q2 = digitalRead(D2);
+    int q3 = digitalRead(D3);
+    int q4 = digitalRead(D4);
+    int q5 = digitalRead(D5);
+    int q6 = digitalRead(D6);
+    int q7 = digitalRead(D7);
+    
+    return q0 + q1 * 2 + q2 * 4 + q3 * 8 + q4 * 16 + q5 * 32 + q6 * 64 + q7 * 128;
+}
+
+void updateEdges() {
+    if (digitalRead(VSYNC) != vsyncval) {
+        vsyncrise = vsyncval;
+        if (vsyncval == 1) {
+            vsyncfall = 0;
+        } else {
+            vsyncfall = 1;
+        }
+    }
+    if (digitalRead(HREF) != hrefval) {
+        hrefrise = hrefval;
+        if (hrefval == 1) {
+            hreffall = 0;
+        } else {
+            hreffall = 1;
+        }
+    }
+    if (digitalRead(PCLK) != pclkval) {
+        pclkrise = pclkval;
+        if (pclkval == 1) {
+            pclkfall = 0;
+        } else {
+            pclkfall = 1;
+        }
+    }
+    
+    vsyncval = digitalRead(VSYNC);
+    hrefval = digitalRead(HREF);
+    pclkval = digitalRead(PCLK);
+}
