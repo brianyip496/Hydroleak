@@ -3,6 +3,15 @@ Hydroleak
 
 EID101-D Project
 
+Code for Camera
+https://github.com/brianyip496/Hydroleak/blob/master/Spark%20Core%20Code
+
+ToDo List
+https://github.com/brianyip496/Hydroleak/blob/master/Prototype%20ToDo
+
+Pin Diagram
+https://github.com/brianyip496/Hydroleak/blob/master/Pin%20Diagrma
+
 Shopping List:
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Shopping%20List
 
