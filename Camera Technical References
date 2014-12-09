@@ -7,3 +7,5 @@ http://www.electronicaestudio.com/docs/sht001.pdf
 Arduino Code(Not Compatible)
 https://github.com/ComputerNerd/ov7670-no-ram-arduino-uno
 
+555 Timer Reference(Could also use crystal oscillator)
+http://electronicsclub.info/555timer.htm#astable
