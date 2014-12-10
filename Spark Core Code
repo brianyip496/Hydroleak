@@ -1,3 +1,4 @@
+//Define the pin configurations PWDN is commented out because it is not used
 int VSYNC = A1;
 int HREF = A0;
 int PCLK = A6;
@@ -5,7 +6,9 @@ int XCLK = A3;
 int RESETPIN = A7;
 //int PWDN = A4;
 
-//Edge Detectino
+//Edge Detection
+//Previous values for these variables, used to detect
+//rising/falling edges in updateEdges() method
 bool vsyncval = false;
 bool hrefval = false;
 bool pclkval = false;
@@ -16,11 +19,14 @@ bool pclkfall = false;
 bool hrefrise = false;
 bool hreffall = false;
 
+//Array used to store the entire picture. Removed due to
+//Memory requirements
 // int picture[480][640];
 //char picture[176][144];
 
 void setup() {
-    Serial.begin(9600);
+    Serial.begin(9600);     //Starts the Serial Communication with the computer
+    //Initializes all of the input pins
     pinMode(D0, INPUT);
     pinMode(D1, INPUT);
     pinMode(D2, INPUT);
