@@ -1,9 +1,19 @@
 //Define the pin configurations PWDN is commented out because it is not used
+//This pin goes low when a frame is sending
 int VSYNC = A1;
+
+//This pin goes high when a row is sending
 int HREF = A0;
+
+//On the rising edge, sample from D0-D7
 int PCLK = A6;
+
+//Input clock pulse, need this to send data
 int XCLK = A3;
+
+//Resets the camera
 int RESETPIN = A7;
+
 //int PWDN = A4;
 
 //Edge Detection
@@ -36,9 +46,11 @@ void setup() {
     pinMode(D6, INPUT);
     pinMode(D7, INPUT);
     
+    //Initialized the other camera input pins
     pinMode(VSYNC, INPUT);
     pinMode(HREF, INPUT);
     
+    //Output pins
     pinMode(PCLK, OUTPUT);
     pinMode(XCLK, OUTPUT);
     pinMode(RESET, OUTPUT);
@@ -47,43 +59,62 @@ void setup() {
     digitalWrite(RESET, 1);
     //digitalWrite(PWDN, 0);
     
-    SPI.setClockDivider(SPI_CLOCK_DIV4);
-    
+    //Failed attempt to use the SparkCore's serial clock output
+    //SPI.setClockDivider(SPI_CLOCK_DIV4);
+    //SPI.begin();
     
     // Spark.function("take", takePicture);
     // Spark.variable("picture", string, STRING);
     // takePicture("merg");
 }
 
+//This function is constantly called
 void loop() {
     // Serial.println(parseGreyscale());
+    //Testing output, write out the value of VSYNC to the Serial port
     Serial.println(digitalRead(VSYNC));
     Serial.println("___");
 }
 
+//Entire take picture method, not used for testing
 int takePicture(String blarg) {
+    //Number of the byte being sent.
+    //The Y value is the every even bit
+    
     int bytecount = 1;
+    
+    //The row number of the file
     int rowcount = 0;
+    
+    //The array to fit one file
     char rowBuffer[144];
     
+    //Flags for the picture
     bool finished = false;
     bool sendingFrame = false;
     
     while (finished == false) {
         updateEdges();
+        //Whether or not the frame is sending
         if (vsyncfall) {
             sendingFrame = true;
         }
         if (vsyncrise) {
             sendingFrame = false;
         }
+        
         if (sendingFrame) {
+            //If it is currently sending a pixel
+            //Sample D0-D7 for the bits
             if (hrefval and pclkrise) {
+                //If the bytecount is even
                 if (bytecount % 2 == 0) {
-                   rowBuffer[bytecount/2 -1] = parseGreyscale();
+                    rowBuffer[bytecount/2 -1] = parseGreyscale();
                 }
+                //Increment the bytecount
                 bytecount++;
             }
+            //When it finishes sending a row, send out the row buffer
             if (hreffall) {
                 // picture[rowcount] = rowBuffer;
                 for (int num = 0; num < (int)sizeof(rowBuffer)-1; num++) {
@@ -99,7 +130,9 @@ int takePicture(String blarg) {
     return 0;
 }
 
+//Turns the 8 bits into ints
 int parseGreyscale() {
+    //Reads in all of the values
     int q0 = digitalRead(D0);
     int q1 = digitalRead(D1);
     int q2 = digitalRead(D2);
@@ -109,9 +142,11 @@ int parseGreyscale() {
     int q6 = digitalRead(D6);
     int q7 = digitalRead(D7);
     
+    //Sum them up
     return q0 + q1 * 2 + q2 * 4 + q3 * 8 + q4 * 16 + q5 * 32 + q6 * 64 + q7 * 128;
 }
 
+//Updates all of the rising and falling edges
 void updateEdges() {
     if (digitalRead(VSYNC) != vsyncval) {
         vsyncrise = vsyncval;
