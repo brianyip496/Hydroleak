@@ -56,4 +56,4 @@ Pressure system: rejected at the very beginning beacuse of practicality
 
 Flow Rate sytsem: The system we were using for the first half of the semester. We realized from customer feedabck that the installation process would be too annoying because they would half to call a plumber and cut their pipes ao this also got rejected and we went on to the current idea: camera system
 
-Camera system: uses image differencing to take pictures of your water meter and compares them to tell if water is flowing through your pipes. Very easy ismatllation- you just clip it onto your water meter. See camera system branch
+Camera system: uses image differencing to take pictures of your water meter and compares them to tell if water is flowing through your pipes. Very easy installation- you just clip it onto your water meter. See camera system branch
