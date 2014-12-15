@@ -17,3 +17,9 @@ Sparkcore hardware limitations
 http://docs.spark.io/hardware/
 (128K flash Memory, not enough to store entire image)
 (500Hz Analog pin frequency PWM)
+
+More Arduino Code
+http://www.arducam.com/download/
+
+mbed (another microcontroller) reference
+http://developer.mbed.org/users/ms523/notebook/ov7670-camera/
