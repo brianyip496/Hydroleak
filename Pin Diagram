@@ -6,7 +6,7 @@ SDIOD -> floating
 VSYNC -> A1
 HREF -> A0
 PCLK -> A6
-XCLK -> A3 (Should be connected to a clock pulse frequency 10-48 mHz)
+XCLK -> A3 (Should be connected to a clock pulse frequency 10-48 mHz crystal oscillator, not the Sparkcore pin)
 D7-D0 -> D7-D0
 RESET -> 3v3
 PWDN -> GND
