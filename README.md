@@ -23,7 +23,9 @@ https://github.com/brianyip496/Hydroleak/blob/Camera-System/Subscription%20List
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Kickstarter%20Video%20Outline
 
 Kickstarter 
+
 username: hydroleakdetection@gmail.com
+
 password: coopercu
             
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Kickstarter
