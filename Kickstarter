@@ -1,3 +1,5 @@
+https://www.kickstarter.com/projects/1331319002/2126416743/edit
+
 Old Risks and Challenges
 Some appliances use water automatically, which could result in Hydroleak returning false positives for leaks. An example of such
 an appliance is the ice maker in some refrigerators. In order to prevent false positives, we need to develop an algorithm that
