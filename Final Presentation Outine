@@ -1,3 +1,17 @@
+Hello, I’m _______,  and this is ________, .... and we’re here to talk about our product, Hydroleak, an automatic leak detection system. 
+	Our team has been hard at work building Hydroleak and exploring potential customers. (Show website) We’ve created a website, handed out flyers, and posted in several forums. From this advertising we’ve received mostly negative feedback, so we decided to change the design of Hydroleak.
+
+ 	Our original design used the flow rate within the water meter to detect leaky water pipes. The problem with this method was that it wasn’t practical, which is why this semester we redesigned Hydroleak to be much easier to install and to use. The new design easily attaches to the water meter using suction cups and it works by using a camera to take pictures of the outside of your water meter, specifically the rotating triangle, at set time intervals. Then it uses image differencing software to compare the image. If the image changes, that means the triangle is rotating, and there is a leak. Then, Hydroleak will automatically send a message to the users’ smartphone alerting them of a potential leak.
+
+	We discussed our new system on several forums. We again received valuable feedback suggesting to include features such as real time monitoring and consumption metrics. To implement real time monitoring, we’re going to have our camera take photos constantly. If water is being used constantly for a very long period of time, there is likely a leak and Hydroleak will warn the user. To measure how much water is leaking, we’re planning to estimate the flow rate using the rate at which the triangle rotates.
+(Show Kickstarter) We’ve created a Kickstarter page to crowdfund our project. We’ve
+also estimated the cost of mass producing Hydroleak. We’ve contacted wholesale suppliers and have gotten quotes for their products. Our estimate for the cost of raw materials to build Hydroleak is $21
+	We hope you’ve found Hydroleak intriguing, thanks for listening. 	
+
+
+
+
+Old Script:
 
 The average residential home loses 14% of its water to leaks. This amounts to about 22 gallons a day.  These leaks could cause
 damage to your home and promote the growth of mold, costing you tons and putting your health in jeopardy. Water leaks account
