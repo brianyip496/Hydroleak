@@ -5,28 +5,64 @@ EID101-D Project
 
 About Us Page (with picture) is in the wiki page
 
+How it works
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/System
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Triangular%20Leak%20Detector
+
+Final Presentation
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Final%20Presentation%20Outline
+https://github.com/brianyip496/Hydroleak/blob/master/Final%20Presentation%20Powerpoint
+
+Materials
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Shopping%20List
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Product%20Cost
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Optical%20Sensor  - Not used
+
+Advertising
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Website
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Subscription%20List
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Kickstarter%20Video%20Outline
+Kickstarter username: hydroleakdetection@gmail.com
+            password: coopercu
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Kickstarter
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Flyer%20For%20New%20Product
+https://github.com/brianyip496/Hydroleak/blob/master/Updated%20Flyer
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Feedback%20Form
+
+Got banned from several forums immediately. Decided to post again, asking for suggestions instead of blatently advertising.
+These posts stayed up for some time and got responses, but eventually got us banned from everywhere again.
+Handing out flyers didn't work well, so we become more aggressive and talked directly to people, asking them if they want
+to subscribe and recording their emails.
+
+Technical
+
 Code for Camera
 https://github.com/brianyip496/Hydroleak/blob/master/Spark%20Core%20Code
-
+Camera technical references
+https://github.com/brianyip496/Hydroleak/blob/master/Camera%20Technical%20References
 ToDo List
 https://github.com/brianyip496/Hydroleak/blob/master/Prototype%20ToDo
-
 Pin Diagram
 https://github.com/brianyip496/Hydroleak/blob/master/Pin%20Diagrma
-
-Shopping List:
-https://github.com/brianyip496/Hydroleak/blob/Camera-System/Shopping%20List
-
-Pressure system: Abandoned! (Used two pressure sensors at each end of pipe)
-
-Camera system: Idea under consideration. (Use camera to track triangular leak detector on water meter)
-
-How it works
-
-https://github.com/brianyip496/Hydroleak/blob/Camera-System/System
+Solidworks
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Solidworks
+Website Templates
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Brace%20Website%20Templates
+Website code
+https://github.com/brianyip496/Hydroleak/tree/Camera-System/Website-Code
+Automatic email code - googlescript
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Hydroleak%20Automatic%20Email
 
 
-Our current plan: Flow rate system (Flow sensor and flow switch. If flow is not zero, and faucets are off, there's a leak)
+All plans
+
+Pressure system: rejected at the very beginning beacuse of practicality
+
+Flow Rate sytsem: The system we were using for the first half of the semester. We realized from customer feedabck that the installation process would be too annoying because they would half to call a plumber and cut their pipes ao this also got rejected and we went on to the current idea: camera system
+
+Camera system: The current system. Uses image differencing to take pictures of your water meter and compares them to tell if water is flowing through your pipes. Very easy installation- you just clip it onto your water meter. See camera system branch
+
+Old flow rate system 
 
 How it works 
 
@@ -53,9 +89,3 @@ Leak Facts, if you're interested!
 https://github.com/brianyip496/Hydroleak/blob/Flow-Rate-System/Leak%20Facts
 
 The branches reflect the 3 possible systems we were considering. 
-
-Pressure system: rejected at the very beginning beacuse of practicality
-
-Flow Rate sytsem: The system we were using for the first half of the semester. We realized from customer feedabck that the installation process would be too annoying because they would half to call a plumber and cut their pipes ao this also got rejected and we went on to the current idea: camera system
-
-Camera system: The current system. Uses image differencing to take pictures of your water meter and compares them to tell if water is flowing through your pipes. Very easy installation- you just clip it onto your water meter. See camera system branch
