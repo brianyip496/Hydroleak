@@ -3,6 +3,8 @@ Hydroleak
 
 EID101-D Project
 
+About Us Page (with picture) is in the wiki page
+
 Code for Camera
 https://github.com/brianyip496/Hydroleak/blob/master/Spark%20Core%20Code
 
