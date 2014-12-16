@@ -6,15 +6,18 @@ EID101-D Project
 About Us Page (with picture) is in the wiki page
 
 How it works
+
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/System
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Triangular%20Leak%20Detector
 
 Materials
+
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Shopping%20List
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Product%20Cost
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Optical%20Sensor  - Not used
 
 Advertising
+
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Website
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Subscription%20List
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Kickstarter%20Video%20Outline
@@ -33,23 +36,39 @@ to subscribe and recording their emails.
 Technical
 
 Code for Camera
+
 https://github.com/brianyip496/Hydroleak/blob/master/Spark%20Core%20Code
+
 Camera technical references
+
 https://github.com/brianyip496/Hydroleak/blob/master/Camera%20Technical%20References
+
 ToDo List
+
 https://github.com/brianyip496/Hydroleak/blob/master/Prototype%20ToDo
+
 Pin Diagram
+
 https://github.com/brianyip496/Hydroleak/blob/master/Pin%20Diagrma
+
 Solidworks
+
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Solidworks
+
 Website Templates
+
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Brace%20Website%20Templates
+
 Website code
+
 https://github.com/brianyip496/Hydroleak/tree/Camera-System/Website-Code
+
 Automatic email code - googlescript
+
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Hydroleak%20Automatic%20Email
 
 Final Presentation
+
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Final%20Presentation%20Outline
 https://github.com/brianyip496/Hydroleak/blob/master/Final%20Presentation%20Powerpoint
 
