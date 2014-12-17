@@ -3,9 +3,9 @@ Hydroleak
 
 EID101-D Project
 
-https://camo.githubusercontent.com/20dc24339a4caea719643e33817106fd5f652ef4/687474703a2f2f6936322e74696e797069632e636f6d2f61767839662e6a7067
+Picture of Team
 
-About us page (with picture) is in the wiki page
+https://camo.githubusercontent.com/20dc24339a4caea719643e33817106fd5f652ef4/687474703a2f2f6936322e74696e797069632e636f6d2f61767839662e6a7067
 
 How it works
 
