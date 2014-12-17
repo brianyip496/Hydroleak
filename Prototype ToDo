@@ -2,3 +2,6 @@
   Data sending through wifi is not done yet. The code does not send the pixel values over the sparkcore yet. The original plan was the send the entire image as a jpeg through wifi. However, the core does not have enough memory to store the entire image, even in the lowest resolution. Therefore, the core now sends the indivical rows of the image once it finishes recording. This process is not implemented yet.
   The server side image processing and anaylsis is not done yet. After sending each line of the image, the server should put each individual line into a matrix and run the image comparision algorithm. Then, it should notify the user weather or not a leak is present.
   Casing and mouting of the camera. The camera needs both a case and a way to mount the camera to the water meter. In addition, for a more robust prototype, a PCB should be used for the wiring.
+
+Update: We resorted to using suction cups to mount the case to the face of the water meter. We chose this because it's a cheap,
+effective, and easy to use solution that will ealisy attach to the plastic or galss sufaces of water meters.
