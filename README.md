@@ -40,7 +40,7 @@ These posts stayed up for some time and got responses, but eventually got us ban
 Handing out flyers didn't work well, so we become more aggressive and talked directly to people, asking them if they want
 to subscribe and recording their emails. Receieved some notable feedback suggesting some additions such as constant monitoring and consumption metrics.
 
-Technical
+Technical:
 
 Code for Camera
 
