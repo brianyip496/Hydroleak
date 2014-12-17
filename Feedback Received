@@ -1,0 +1,11 @@
+The one point of feedback that we received from the first round of forum posts before we were banned was that flow flow rate
+system would be a huge hassle to install. This was after we got the idea of the camera system, and we just posted to forums to 
+verify that people would be discouraged by the prospect of an expensive installation. 
+
+We received a lot more feedback in the second round of posting to forums. 
+The main issues that were raised were:
+  -There was no continuous monitoring in the system at that time
+  -Add a web portal for access to monitoring information
+  -Add metrics to track overall water consumption
+
+We tried to implemented all these ideas in the final design for Hydroleak.
