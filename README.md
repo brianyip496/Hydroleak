@@ -3,7 +3,7 @@ Hydroleak
 
 EID101-D Project
 
-About Us Page (with picture) is in the wiki page
+About us page (with picture) is in the wiki page
 
 How it works
 
