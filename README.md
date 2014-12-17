@@ -27,6 +27,8 @@ Kickstarter
 username: hydroleakdetection@gmail.com
 
 password: coopercu
+
+(same username/password for gmail and every other account wev've created on blogs.)
             
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Kickstarter
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Flyer%20For%20New%20Product
