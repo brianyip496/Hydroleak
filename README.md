@@ -21,16 +21,7 @@ Advertising
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Website
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Subscription%20List
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Kickstarter%20Video%20Outline
-
-Kickstarter 
-
-username: hydroleakdetection@gmail.com
-
-password: coopercu
-
-(same username/password for gmail and every other account wev've created on blogs.)
-            
-https://github.com/brianyip496/Hydroleak/blob/Camera-System/Kickstarter
+https://www.kickstarter.com/projects/1331319002/2126416743?token=7d236693
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Flyer%20For%20New%20Product
 https://github.com/brianyip496/Hydroleak/blob/master/Updated%20Flyer
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Feedback%20Form
