@@ -49,7 +49,7 @@ https://github.com/brianyip496/Hydroleak/blob/master/Prototype%20ToDo
 
 Pin Diagram
 
-https://github.com/brianyip496/Hydroleak/blob/master/Pin%20Diagrma
+https://github.com/brianyip496/Hydroleak/blob/master/Pin%20Diagram
 
 Solidworks
 
