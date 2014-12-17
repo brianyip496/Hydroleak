@@ -26,6 +26,7 @@ https://www.kickstarter.com/projects/1331319002/2126416743?token=7d236693
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Flyer%20For%20New%20Product
 https://github.com/brianyip496/Hydroleak/blob/master/Updated%20Flyer
 https://github.com/brianyip496/Hydroleak/blob/Camera-System/Feedback%20Form
+https://github.com/brianyip496/Hydroleak/blob/Camera-System/Feedback%20Received
 
 Got banned from several forums immediately. Decided to post again, asking for suggestions instead of blatently advertising.
 These posts stayed up for some time and got responses, but eventually got us banned from everywhere again.
