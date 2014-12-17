@@ -3,6 +3,8 @@ Hydroleak
 
 EID101-D Project
 
+![Alt text](https://camo.githubusercontent.com/20dc24339a4caea719643e33817106fd5f652ef4/687474703a2f2f6936322e74696e797069632e636f6d2f61767839662e6a7067 "The Team")
+
 Picture of Team
 
 https://camo.githubusercontent.com/20dc24339a4caea719643e33817106fd5f652ef4/687474703a2f2f6936322e74696e797069632e636f6d2f61767839662e6a7067
